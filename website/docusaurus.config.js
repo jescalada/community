@@ -5,7 +5,7 @@ const copyrightOwner = 'FINOS'
 module.exports = {
   title: `FINOS ${projectName}`,
   tagline: `FINOS ${projectName} documentation around governance, development infrastructure and best practices of our Community`, 
-  url: 'https://finos.org',
+  url: 'https://community.finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
@@ -123,6 +123,17 @@ module.exports = {
       {
         trackingID: 'G-Q2K0WLVFHP',
         anonymizeIP: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/governance/Software-Projects/code-transfer',
+            to: '/docs/governance/Software-Projects/contribution',
+          },
+        ],
       },
     ],
   ],

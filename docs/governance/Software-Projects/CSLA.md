@@ -1,6 +1,6 @@
 ---
-id: intro
-title: Establishing and Running an Open Standard project
+id: csla
+title: CSLA
 ---
 
 Within FINOS, an Open standard project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes than software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
@@ -9,23 +9,21 @@ FINOS standards projects follow the [Joint Development Foundation](https://www.j
 
 This document summarizes the requirements for establishing, joining, and running standards projects, but it is not comprehensive. Anyone involved in running a standards project should review the Community Specification documentation carefully in addition to referring to this information. Note that FINOS has made a few customizations to the Community Specification process for its own needs, so please refer to the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/), which contains the full Community Specification documentation together with those customizations. The rest of this document links to the Blueprint.
 
-**NB**: The Community Specification process replaces the **now deprecated** previous rules for standards projects found in the FINOS [IP Policy](/governance-docs/IP-Policy.pdf). While some existing FINOS projects (e.g. [FDC3](http://github.com/finos/fdc3)) still follow the IP Policy process and are in the process of migrating out of it, all new standards projects should use the Community Specification process. Future versions of the IP Policy will likely remove the current open standard IPR related provisions (Section V and below) in favor of explicitly referencing the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/) as Governing Board approved charter for standards development.
-
 ## Establishing a standards project
 
 In order to contribute an existing standards project, or to start a new standards project, a [FINOS member](https://finos.org/members) must submit a standard project proposal, using the [FINOS standard project proposal template](https://github.com/finos/community/blob/master/.github/ISSUE_TEMPLATE/Standards-Project-Contribution.md), and identifying the project's scope, roadmap, and [maintainers](https://community.finos.org/docs/finos-maintainers-cheatsheet/).
 
 ## Getting the project started
 
-After a standards project is approved, FINOS will set up a repository for the standard project within the FINOS GitHub organization. Project maintainers will then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/master/..Getting%20Started.md) file to finalize the repository setup.
+After a standards project is approved, FINOS will set up a repository for the standard project within the FINOS GitHub organization. Project maintainers will then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/Getting%20Started.md) file to finalize the repository setup.
 
 ## Requirements of standards project participants
 
 ### IP licensing requirements
 
-Contributions to FINOS standards projects are governed by the [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (the "CSL"). The CSL specifies the copyright and patent rights licensed by contributors to implementers of the specification, as well as the other terms applicable to contributions. Generally, contributors authorize anyone to produce specification-compliant implementations of: (1) any draft version of the specification that they contributed to, and (2) any final specification approved by the project (except for patent claims properly excluded by the contributor).
+Contributions to FINOS standards projects are governed by the [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/1._Community_Specification_License-v1.md) (the "CSL"). The CSL specifies the copyright and patent rights licensed by contributors to implementers of the specification, as well as the other terms applicable to contributions. Generally, contributors authorize anyone to produce specification-compliant implementations of: (1) any draft version of the specification that they contributed to, and (2) any final specification approved by the project (except for patent claims properly excluded by the contributor).
 
-Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CSLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CSLA on behalf of their employer.
+Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/0._CS_Contributor_License_Agreement.md) ("CSLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CSLA on behalf of their employer.
 
 By agreeing to the CSLA, participants agree to the terms of the following project policies:
 * [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/0._CS_Contributor_License_Agreement.md) (described above)
